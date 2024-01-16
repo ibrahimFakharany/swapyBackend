@@ -11,7 +11,7 @@ import { User } from './user/entities/user.entity';
       type: 'postgres',
       host: 'https://swapiy.cdcca2wqwdyv.eu-north-1.rds.amazonaws.com',
       port: 5432,
-      password: '123456',
+      password: '12345678',
       username: 'postgres',
       entities: [User],
       database: 'swapiy',
