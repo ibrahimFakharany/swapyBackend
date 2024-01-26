@@ -16,7 +16,9 @@ import { User } from './user/entities/user.entity';
       database: 'swapy_db',
       entities: [User],
       synchronize: false,
-      ssl: true,
+      ssl: {
+        rejectUnauthorized: false,
+      },
       extra: {
         trustServerCertificate: true,
         Encrypt: true,
