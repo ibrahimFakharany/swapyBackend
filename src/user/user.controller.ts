@@ -17,7 +17,7 @@ export class UserController {
 
   @Post()
   create() {
-    return 'this.userService.create(createUserDto);';
+    return 'create new user response';
   }
 
   @Get()
