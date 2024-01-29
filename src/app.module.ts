@@ -15,7 +15,7 @@ import { User } from './user/entities/user.entity';
       password: '12345678',
       database: 'swapy_db',
       entities: [User],
-      synchronize: false,
+      synchronize: true,
       ssl: {
         rejectUnauthorized: false,
       },
